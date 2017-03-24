@@ -45,7 +45,7 @@ Substituting the appropriate part and step numbers as necessary.
 
 We're going to define a single `index.html` page.  We'll include the Open MCT library, configure a number of plugins, and then start the application.
 
-[index.html](https://github.com/nasa/openmct-tutorial/tree/part-a)
+[index.html](https://github.com/nasa/openmct-tutorial/tree/part-a/index.html)
 ```html
 <!DOCTYPE html>
 <html>
