@@ -212,7 +212,7 @@ If we reload our browser now, the unknown object in our tree should be replaced 
 
 The root object uses the builtin type `folder`. For the objects representing the telemetry points for our spacecraft, we will now register a new object type.
 
-_Snippet from [dictionary-plugin.js](https://github.com/nasa/openmct-tutorial/blob/part-c/dictionary-plugin.js#L63)_
+_Snippet from [dictionary-plugin.js](https://github.com/nasa/openmct-tutorial/blob/part-c/dictionary-plugin.js#L63-L67)_
 ```javascript
 openmct.types.addType('example.telemetry', {
     name: 'Example Telemetry Point',
@@ -279,7 +279,7 @@ Although we have now defined an object provider for both the Example Spacecraft 
 
 We have defined a root node in [Step 2](https://github.com/nasa/openmct-tutorial/blob/part-b-step-3/dictionary-plugin.js) and we have provided some objects that will appear in the tree. Now we will provide structure to the tree and define the relationships between objects in the tree. This is achieved with a [Composition Provider]().
 
-_Snippet from [dictionary-plugin.js](https://github.com/nasa/openmct-tutorial/blob/part-c/dictionary-plugin.js#L39)_
+_Snippet from [dictionary-plugin.js](https://github.com/nasa/openmct-tutorial/blob/part-c/dictionary-plugin.js#L34-L50)_
 ```javascript
 var compositionProvider = {
     appliesTo: function (domainObject) {
